@@ -8,8 +8,13 @@ router.get('/',(req,res,next)=>{
 });
 
 router.post('/',(req,res,next)=>{
+    const product = {
+        productName : req.body.productName,
+        productPrice : req.body.productPrice
+    }
     res.status(200).json({
-        message:"you are in /products post route"
+        message:"you are in /products post route",
+        product : product
     });
 });
 

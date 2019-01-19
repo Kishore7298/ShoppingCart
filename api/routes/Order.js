@@ -7,8 +7,13 @@ router.get('/',(req,res,next)=>{
     });
 });
 router.post('/',(req,res,next)=>{
+    const order = {
+        orderId : req.body.orderId,
+        orderName : req.body.orderName
+    }
     res.status(200).json({
-        message:"post in /orders"
+        message:"post in /orders",
+        order: order
     });
 });
 router.get('/:routerId',(req,res,next)=>{
