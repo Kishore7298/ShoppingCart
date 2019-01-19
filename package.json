@@ -1,5 +1,5 @@
 {
-  "name": "ShoppingCart",
+  "name": "shoppingcart",
   "version": "1.0.0",
   "description": "A Restful api based project",
   "main": "server.js",
