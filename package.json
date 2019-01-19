@@ -1,0 +1,11 @@
+{
+  "name": "ShoppingCart",
+  "version": "1.0.0",
+  "description": "A Restful api based project",
+  "main": "server.js",
+  "author": "Kishore",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
